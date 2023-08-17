@@ -2,3 +2,5 @@
 
 GOOS=linux GOARCH=mipsle GOMIPS=softfloat go build -x -trimpath -ldflags "-s -w -buildid" -o xray ./main
 
+文件放到/usr/bin/xray  即可
+
